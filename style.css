@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+div.imagen {
+    background: url(../MiPag/image/business.jpg) no-repeat;
+    min-height: 94vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.inicioText {
+    text-align: center;
+    border:2px solid white;
+    padding: 3vh 10vw;
+    background-color: black;
+    opacity: 0.8;    
+    color: white;
+}
+
+.inicioText h1 {
+    font-weight: bold;    
+    font-size: 400%;
+}
+
+nav.navbar {
+    padding: 0;
+    background-color: #404040;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #efefef !important;
+}
+
+.navbar > a {
+    padding: 2vh 1vw;
+}
+
+.navbar > a:hover, 
+.navbar > a.active {
+    background-color: #202020;
+}
+
+
+section#sobreMi,.container {
+    background-color: #398AB9;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    margin: 0;
+    max-width: 100vw; 
+}
+
+div.row {
+    padding-top: 4vh;
+}
+
+section#sobreMi h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+section#sobreMi h2, p#sub{    
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.bntDownload {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background: #404040;
+    padding: 16px 22px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+div#imagenYo{
+    display: grid;    
+    place-items: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 40vh; 
+}
+
+.bg-primary{
+    height: 1000px;
+}
+
+
+
+
