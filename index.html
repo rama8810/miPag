@@ -2,45 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Mi Pag</title>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Compatible con IE old-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodolfo Andrés - Ing. Sistemas</title>
+    <!--main style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--bootstrap style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="inicio">   
-        <div class="imagen">
-            <div class="inicioText">
+    <!--wrapper start-->    
+    <section id="begin">
+        <!--banner start-->        
+        <header>                                    
+            <div class="heading">                
                 <h1>RODOLFO A. MELÉNDEZ A.</h1>
-                <h2>Ingeniero de Sistemas, Desarrollador Web.</h2>
+                <h2>Ingeniero de Sistemas - Desarrollador Web.</h2>
             </div>
-        </div>
+        </header>
+        <!--banner end-->
     </section>
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <a class="nav-link active" href="#inicio">INICIO</a>
-        <a class="nav-link" href="#sobreMi">¿QUIÉN SOY YO?</a>
-        <a class="nav-link" href="#conocimientos">ALGUNOS CONOCIMIENTOS</a>
-        <a class="nav-link" href="#">CONTACTO</a>
-    </nav>
-    <section id="sobreMi" class="container">
-        <h2>¿QUIEN SOY YO?</h2>
-        <p id="sub">algo sobre mi</p>
+    <nav class="sticky-top">
+        <a class="active" href="#begin">INICIO</a>
+        <a href="#aboutMe">¿QUIÉN SOY YO?</a>
+        <a href="#knowledge">ALGUNOS CONOCIMIENTOS</a>
+        <a href="#contact">CONTACTO</a>
+    </nav>    
+
+    <section id="aboutMe" class="container">
+        <div class="heading">
+            <h2>¿SOBRE MI?</h2>
+            <p id="sub">una pequeña introducci&oacuten...</p>
+        </div>
         <div class="row">
             <div id="descripcion" class="col">
                 <h3>Rodolfo Andrés</h3>
                 <h4>Ingeniero de Sistemas - Programador Web Colombiano.</h4>
                 <p>Ingeniero de Sistemas desarrollador de software, diseño e implementación de bases de datos, programación web, arquitectura de tecnologías de información, planificación e implementación de proyectos de tecnologías.</p>
-                <a href="../MiPag/image/CV RODOLFO MELENDEZ.pdf" class="bntDownload">Descargar Curriculum.</a>
+                <a href="../miPag/docs/CV RODOLFO MELENDEZ.pdf" class="bntDownload">Descargar Curriculum.</a>
             </div>
             <div id="imagenYo" class="col-5">
-                <img src="../MiPag/image/rodolfo m.jpg" alt="" class="img-circle">
+                <img src="../miPag/images/rodolfo m.jpg" alt="" class="img-circle">
             </div>
-        </div>
+        </div>                
     </section>
-    <section id="conocimientos" class="bg-primary"></section>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
-    <script src="script.js"></script>
+
+    <section id="knowledge" class="bg-primary">
+        
+    </section>
+
+    <!--jquery3.7.0 script-->
+    <script src="js/jquery-3.7.0.js"></script>
+    <!--bootstrap script-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--menu hover script-->
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+
+

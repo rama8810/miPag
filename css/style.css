@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section#begin {
+    width: 100%;
+}
+
+header {
+    display: grid;
+    place-content: center; /*justify-content=horizontal & align-content=vertical*/
+    height: 94vh;
+    background: url(../images/business.jpg) no-repeat center;
+    background-size: cover;
+}
+
+header .heading {
+    text-align: center;
+    border: 3px solid white;
+    padding:  5vh 6vw;
+    background-color: black;
+    opacity: 0.8;    
+    color: white;
+}
+
+.heading h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.heading h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+nav {
+    background-color: #404040;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+nav a {
+    height: 6vh;
+    padding: 0 1vw;
+    display: grid;
+    place-content: center;
+    color: #efefef !important;
+    text-decoration: none;
+}
+
+nav a:hover, 
+nav a.active {    
+    background-color: #202020;
+}
+
+section#aboutMe {
+    background-color: #398AB9;
+    color: white;
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    margin: 0;
+    min-width: 100%;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.heading h2, p#sub {
+    text-align: center;
+}
+
+.bntDownload {
+    font-size: 16px;
+    font-weight: 700;
+    background: #404040;
+    padding: 16px 22px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+div#imagenYo{
+    display: grid;    
+    place-items: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 40vh; 
+}
+
+section#knowledge {
+    height: 100vh;
+}
