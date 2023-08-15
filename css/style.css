@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    max-width: 100vw;
 }
 
 section#begin {
@@ -61,21 +62,22 @@ nav a.active {
 section#aboutMe {
     background-color: #398AB9;
     color: white;
-    padding-top: 6vh;
-    padding-bottom: 5vh;
+    padding-bottom: 6vh;
     padding-left: 16vw;
     padding-right: 16vw;
     margin: 0;
     min-width: 100%;
 }
 
-.heading h2 {
+.heading h2.title {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 0;
+    padding-top: 6vh;
 }
 
-.heading h2, p#sub {
+.heading h2,
+.heading p {
     text-align: center;
 }
 
@@ -100,5 +102,44 @@ div#imagenYo{
 }
 
 section#knowledge {
-    height: 100vh;
+    color: #398AB9;
 }
+
+section#knowledge p {
+    color: black;
+}
+
+section#knowledge .row {
+    padding-top: 3vh;
+    justify-content: center;
+}
+
+.skillArea {
+    display: grid;
+    place-content: center;
+}
+
+.skillArea h2 {
+    font-size: 24px;    
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.skillArea .chart {
+    position: relative;       
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.skillArea canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
