@@ -103,6 +103,7 @@ div#imagenYo{
 
 section#knowledge {
     color: #398AB9;
+    padding-bottom: 4vh;
 }
 
 section#knowledge p {
@@ -140,6 +141,11 @@ section#knowledge .row {
     left: 0;
 }
 
+section#contact {
+    height: 100vh;
+    background: #398AB9;
+    color: white;
+}
 
 
 
