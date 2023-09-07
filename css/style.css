@@ -50,6 +50,10 @@ nav a.active {
     background-color: #101010;
 }
 
+.navbar-nav{
+	margin: 0 auto;
+}
+
 section#aboutMe {
     background-color: #398AB9;
     color: white;
@@ -137,5 +141,7 @@ section#contact {
     background: #398AB9;
     color: white;
 }
+
+
 
 
