@@ -142,6 +142,28 @@ section#contact {
     color: white;
 }
 
+@media screen and (max-width: 576px) {
+    header .heading {
+        text-align: center;
+        border: 3px solid white;
+        padding:  2vh 3vw;
+        background-color: black;
+        opacity: 0.8;    
+        color: white;
+    }
+    
+    .heading h1 {
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    .heading h2 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+
 
 
 
