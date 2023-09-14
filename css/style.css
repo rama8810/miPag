@@ -146,6 +146,25 @@ section#contact {
     color: white;
 }
 
+section#contact .heading {
+    padding-bottom: 20px;
+}
+
+section#contact .e-mail:before {
+    content: attr(data-website) "\0040" attr(data-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+section#contact h4 {
+    padding-bottom: 10px;
+}
+
+section#contact a {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     header .heading {
         text-align: center;
@@ -171,6 +190,11 @@ section#contact {
 @media screen and (max-width: 992px) {
     div#imagenYo {
         margin-top: 3vh;
+    }
+
+    .contactInfo, .writeMe {
+        margin-left: 50px;
+        padding-bottom: 20px;
     }
 }
 
