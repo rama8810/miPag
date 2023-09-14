@@ -81,6 +81,7 @@ section#aboutMe .container{
 }
 
 .bntDownload {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
     background: #404040;
@@ -88,6 +89,7 @@ section#aboutMe .container{
     display: inline-block;
     color: white;
     text-decoration: none;
+    font-style:italic;
 }
 
 div#imagenYo{
@@ -141,13 +143,27 @@ section#knowledge .row {
 }
 
 section#contact {
-    height: 100vh;
     background: #398AB9;
     color: white;
+    padding-bottom: 40px;
 }
 
 section#contact .heading {
     padding-bottom: 20px;
+}
+
+section#contact h4 {
+    padding-bottom: 15px;
+}
+
+section#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    color:#404040;
+    text-decoration: none;
 }
 
 section#contact .e-mail:before {
@@ -156,13 +172,50 @@ section#contact .e-mail:before {
     direction: rtl;
 }
 
-section#contact h4 {
-    padding-bottom: 10px;
+.conForm input{
+	background: white;
+	color:#404040;
+	padding:10px 20px;
+	border:none;    
+	margin-bottom:20px;
+	outline:none;
+	font-style:italic;
 }
 
-section#contact a {
-    color: white;
-    text-decoration: none;
+.conForm input.name {
+	margin-right: 3%;
+}
+
+.conForm textarea{
+	background: white;
+	color:#93959c;
+	padding:10px 20px;
+	border:none;
+	margin-bottom:20px;
+	outline:none;
+	height:100px;
+	font-style:italic;
+}
+
+.conForm .submitBnt{
+	background:#404040;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size:16px;
+	font-weight:700;
+	text-align:center;
+	float:right;
+    margin-left: 3%;
+}
+
+.conForm .submitBnt:hover{
+	background:#f5534b;
+}
+
+@media screen and (max-width: 576px) {
+    .conForm .submitBnt{
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -193,6 +246,18 @@ section#contact a {
     .contactInfo, .writeMe {
         margin-left: 50px;
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .conForm input.col-sm-6 {
+        width: 48.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .conForm input.col-lg-6 {
+        width: 48.5%;
     }
 }
 
