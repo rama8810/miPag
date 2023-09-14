@@ -20,14 +20,14 @@ header {
 header .heading {
     text-align: center;
     border: 3px solid white;
-    padding:  5vh 6vw;
+    padding:  3vh 4vw;
     background-color: black;
     opacity: 0.8;    
     color: white;
 }
 
 .heading h1 {
-    font-size: 65px;
+    font-size: 45px;
     margin: 0;
 }
 
@@ -224,7 +224,7 @@ section#contact .e-mail:before {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     header .heading {
         text-align: center;
         border: 3px solid white;
@@ -235,16 +235,18 @@ section#contact .e-mail:before {
     }
     
     .heading h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 0;
     }
     
     .heading h2 {
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 300;
         margin: 0;
     }
+}
 
+@media screen and (max-width: 992px) {  
     div#imagenYo {
         margin-top: 3vh;
     }
