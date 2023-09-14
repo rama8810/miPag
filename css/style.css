@@ -216,6 +216,12 @@ section#contact .e-mail:before {
     .conForm .submitBnt{
         margin-left: 0;
     }
+
+    .contactInfo, .writeMe {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -241,11 +247,6 @@ section#contact .e-mail:before {
 
     div#imagenYo {
         margin-top: 3vh;
-    }    
-
-    .contactInfo, .writeMe {
-        margin-left: 50px;
-        padding-bottom: 20px;
     }
 }
 
