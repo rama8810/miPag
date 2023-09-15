@@ -19,11 +19,11 @@ header {
 
 header .heading {
     text-align: center;
-    border: 3px solid white;
+    border: 3px solid #fff;
     padding:  3vh 4vw;
     background-color: black;
     opacity: 0.8;    
-    color: white;
+    color: #fff;
 }
 
 .heading h1 {
@@ -55,8 +55,8 @@ nav a.active {
 }
 
 section#aboutMe {
-    background-color: #398AB9;
-    color: white;
+    background-color: #2d6d92  ;
+    color: #fff;
     padding-bottom: 6vh;
     padding-left: 16vw;
     padding-right: 16vw;
@@ -84,10 +84,10 @@ section#aboutMe .container{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    background: #404040;
+    background: #212529;
     padding: 16px 22px;
     display: inline-block;
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-style:italic;
 }
@@ -103,12 +103,12 @@ div#imagenYo{
 }
 
 section#knowledge {
-    color: #398AB9;
+    color: #2d6d92;
     padding-bottom: 4vh;
 }
 
 section#knowledge p {
-    color: black;
+    color: #2d6d92;
 }
 
 section#knowledge .row {
@@ -143,8 +143,8 @@ section#knowledge .row {
 }
 
 section#contact {
-    background: #398AB9;
-    color: white;
+    background: #2d6d92;
+    color: #fff;
     padding-bottom: 40px;
 }
 
@@ -157,12 +157,12 @@ section#contact h4 {
 }
 
 section#contact a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
 section#contact a:hover {
-    color:#404040;
+    color:#212529;
     text-decoration: none;
 }
 
@@ -173,13 +173,18 @@ section#contact .e-mail:before {
 }
 
 .conForm input{
-	background: white;
-	color:#404040;
+	background: #fff;
+	color:#434b53;
 	padding:10px 20px;
 	border:none;    
 	margin-bottom:20px;
 	outline:none;
 	font-style:italic;
+    font-weight: bold;
+}
+
+.conForm input::placeholder {
+    color: rgba(33,37,41,0.45);
 }
 
 .conForm input.name {
@@ -187,18 +192,23 @@ section#contact .e-mail:before {
 }
 
 .conForm textarea{
-	background: white;
-	color:#93959c;
+	background: #fff;
+	color:#434b53;
 	padding:10px 20px;
 	border:none;
 	margin-bottom:20px;
 	outline:none;
 	height:100px;
 	font-style:italic;
+    font-weight: bold;
+}
+
+.conForm textarea::placeholder {
+    color: rgba(33,37,41,0.45);
 }
 
 .conForm .submitBnt{
-	background:#404040;
+	background:#212529;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
 	font-size:16px;
@@ -227,11 +237,11 @@ section#contact .e-mail:before {
 @media screen and (max-width: 768px) {
     header .heading {
         text-align: center;
-        border: 3px solid white;
+        border: 3px solid #fff;
         padding:  2vh 3vw;
         background-color: black;
         opacity: 0.8;    
-        color: white;
+        color: #fff;
     }
     
     .heading h1 {
