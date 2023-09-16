@@ -122,18 +122,20 @@ section#knowledge .row {
 }
 
 .skillArea h2 {
-    font-size: 24px;    
+    margin-top: 0.2em;
+    font-size: 20px;    
     text-align: center;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
+    font-weight: bold;
 }
 
 .skillArea .chart {
     position: relative;       
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     font-size: 30px;
     text-align: center;
-    line-height: 150px;
+    line-height: 125px;
 }
 
 .skillArea canvas {
@@ -222,7 +224,6 @@ section#contact .e-mail:before {
     body h3 {
         display: block;
         font-size: 1.17em;
-        margin-top: 1em;
         margin-bottom: 1em;
         margin-left: 0;
         margin-right: 0;
@@ -241,14 +242,6 @@ section#contact .e-mail:before {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        display: grid;
-        place-content: center; /*justify-content=horizontal & align-content=vertical*/
-        height: 94vh;
-        background: url(../images/business.webp) no-repeat center;
-        background-size: cover;
-    }
-
     header .heading {
         text-align: center;
         border: 3px solid #fff;
@@ -268,6 +261,19 @@ section#contact .e-mail:before {
         font-weight: 300;
         margin: 0;
     }
+
+    .skillArea h2 {
+        display: block;
+        font-size: 1.17em;
+        margin-top: 0.2em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;  
+        text-align: center;
+        padding-bottom: 1vh;
+    }
+    
 }
 
 @media screen and (max-width: 992px) {  
