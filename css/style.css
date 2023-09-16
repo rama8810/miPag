@@ -13,7 +13,7 @@ header {
     display: grid;
     place-content: center; /*justify-content=horizontal & align-content=vertical*/
     height: 94vh;
-    background: url(../images/businessBig.jpg) no-repeat center;
+    background: url(../images/businessBig.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -58,8 +58,8 @@ section#aboutMe {
     background-color: #2d6d92  ;
     color: #fff;
     padding-bottom: 6vh;
-    padding-left: 16vw;
-    padding-right: 16vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin: 0;
     min-width: 100%;
 }
@@ -152,10 +152,6 @@ section#contact .heading {
     padding-bottom: 20px;
 }
 
-section#contact h4 {
-    padding-bottom: 15px;
-}
-
 section#contact a {
     color: #fff;
     text-decoration: none;
@@ -223,6 +219,16 @@ section#contact .e-mail:before {
 }
 
 @media screen and (max-width: 576px) {
+    body h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
     .conForm .submitBnt{
         margin-left: 0;
     }
@@ -235,6 +241,14 @@ section#contact .e-mail:before {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        display: grid;
+        place-content: center; /*justify-content=horizontal & align-content=vertical*/
+        height: 94vh;
+        background: url(../images/business.webp) no-repeat center;
+        background-size: cover;
+    }
+
     header .heading {
         text-align: center;
         border: 3px solid #fff;
