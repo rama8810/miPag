@@ -5,6 +5,9 @@ body {
     max-width: 100vw;
 }
 
+/*----------------------------------------------------
+ 1.	Section Begin
+------------------------------------------------------*/
 section#begin {
     width: 100%;
 }
@@ -36,6 +39,9 @@ header .heading {
     margin: 0;
 }
 
+/*----------------------------------------------------
+ Menu Navbar
+------------------------------------------------------*/
 nav.navbar {
     padding: 0 !important;
 }
@@ -54,6 +60,9 @@ nav a.active {
 	margin: 0 auto;
 }
 
+/*----------------------------------------------------
+ 2.	Section AboutMe
+------------------------------------------------------*/
 section#aboutMe {
     background-color: #2d6d92  ;
     color: #fff;
@@ -102,6 +111,9 @@ div#imagenYo{
     height: 40vh; 
 }
 
+/*----------------------------------------------------
+ 3.	Section Knowledge
+------------------------------------------------------*/
 section#knowledge {
     color: #2d6d92;
     padding-bottom: 4vh;
@@ -144,6 +156,9 @@ section#knowledge .row {
     left: 0;
 }
 
+/*----------------------------------------------------
+ 4.	Section Contact
+------------------------------------------------------*/
 section#contact {
     background: #2d6d92;
     color: #fff;
@@ -169,7 +184,9 @@ section#contact .e-mail:before {
     unicode-bidi: bidi-override;
     direction: rtl;
 }
-
+/*----------------------------------------------------
+ Form conForm
+------------------------------------------------------*/
 .conForm input{
 	background: #fff;
 	color:#434b53;
@@ -216,10 +233,30 @@ section#contact .e-mail:before {
     margin-left: 3%;
 }
 
-.conForm .submitBnt:hover{
+.conForm .submitBnt:hover {
 	background:#f5534b;
 }
 
+/*----------------------------------------------------
+ Footer
+------------------------------------------------------*/
+footer {
+    background-color: #434b53;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer i {
+    color: #212529;
+}
+
+footer i:hover {
+    color: #fff;
+}
+
+/*----------------------------------------------------
+Responsive
+------------------------------------------------------*/
 @media screen and (max-width: 576px) {
     body h3 {
         display: block;
