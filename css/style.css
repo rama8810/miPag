@@ -241,17 +241,17 @@ section#contact .e-mail:before {
  Footer
 ------------------------------------------------------*/
 footer {
-    background-color: #434b53;
+    background-color: #212529;
     text-align: center;
     padding: 20px 0;
 }
 
 footer i {
-    color: #212529;
+    color: #101010;
 }
 
 footer i:hover {
-    color: #fff;
+    color: #434b53;
 }
 
 /*----------------------------------------------------
