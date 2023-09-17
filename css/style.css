@@ -162,7 +162,7 @@ section#knowledge .row {
 section#contact {
     background: #2d6d92;
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 section#contact .heading {
@@ -243,7 +243,7 @@ section#contact .e-mail:before {
 footer {
     background-color: #434b53;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 footer i {
@@ -265,6 +265,12 @@ Responsive
         margin-left: 0;
         margin-right: 0;
         font-weight: bold;
+    }
+
+    section#contact {
+        background: #2d6d92;
+        color: #fff;
+        padding-bottom: 40px;
     }
 
     .conForm .submitBnt{
