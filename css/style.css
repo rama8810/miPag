@@ -324,6 +324,14 @@ Responsive
         text-align: center;
         padding-bottom: 1vh;
     }
+
+    footer i.fa-github {
+        color: #fff;
+    }
+    
+    footer i.fa-linkedin-square {
+        color: #0A66C2;
+    }
     
 }
 
