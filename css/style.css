@@ -246,12 +246,20 @@ footer {
     padding: 20px 0;
 }
 
+footer a {
+    padding-right: 10px;
+}
+
 footer i {
     color: #101010;
 }
 
-footer i:hover {
-    color: #434b53;
+footer i.fa-github:hover {
+    color: #fff;
+}
+
+footer i.fa-linkedin-square:hover {
+    color: #0A66C2;
 }
 
 /*----------------------------------------------------
