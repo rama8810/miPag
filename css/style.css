@@ -330,7 +330,7 @@ Responsive
     .btn-whatsapp {
         position: fixed;
         z-index: 2000;
-        bottom: 15vh;
+        bottom: 10vh;
         right: 15vw;
     }
 
