@@ -14,7 +14,7 @@ section#begin {
 
 header {
     display: grid;
-    place-content: center; /*justify-content=horizontal & align-content=vertical*/
+    place-content: center;
     height: 94vh;
     background: url(../images/businessBig.webp) no-repeat center;
     background-size: cover;
