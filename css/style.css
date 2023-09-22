@@ -352,6 +352,14 @@ Responsive
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        display: grid;
+        place-content: center;
+        height: 94vh;
+        background: url(../images/businessSmall.webp) no-repeat center;
+        background-size: cover;
+    }
+
     header .heading {
         text-align: center;
         border: 3px solid #fff;
