@@ -244,7 +244,7 @@ section#contact .e-mail:before {
 /*----------------------------------------------------
  Form conForm
 ------------------------------------------------------*/
-.conForm input{
+#conForm input{
 	background: #fff;
 	color:#434b53;
 	padding:10px 20px;
@@ -255,15 +255,15 @@ section#contact .e-mail:before {
     font-weight: bold;
 }
 
-.conForm input::placeholder {
+#conForm input::placeholder {
     color: rgba(33,37,41,0.45);
 }
 
-.conForm input.name {
+#conForm input.name {
 	margin-right: 3%;
 }
 
-.conForm textarea{
+#conForm textarea{
 	background: #fff;
 	color:#434b53;
 	padding:10px 20px;
@@ -275,11 +275,11 @@ section#contact .e-mail:before {
     font-weight: bold;
 }
 
-.conForm textarea::placeholder {
+#conForm textarea::placeholder {
     color: rgba(33,37,41,0.45);
 }
 
-.conForm .submitBnt{
+#conForm .submitBnt{
 	background:#212529;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
@@ -290,7 +290,7 @@ section#contact .e-mail:before {
     margin-left: 3%;
 }
 
-.conForm .submitBnt:hover {
+#conForm .submitBnt:hover {
 	background:#f5534b;
 }
 
