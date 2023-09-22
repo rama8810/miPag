@@ -7,7 +7,7 @@
     <title>Rodolfo Andrés - Ing. Sistemas</title>
     <!--main style-->
     <link rel="stylesheet" href="css/style.css">
-    <!--bootstrap style-->
+    <!--bootstrap style for grid col-x and nav menu-->
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
@@ -29,6 +29,7 @@
     </a>
     <!--WhatsappButton end-->
      <!--menu start-->
+     <!--depends on css/bootstrap.min.css, js/bootstrap.bundle.min.js and js/menuHover.js files-->
      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Menu</a>
@@ -67,6 +68,7 @@
     </section>
     <!--aboutMe end-->
     <!--Knoledge start-->
+    <!--depends on css/bootstrap.min.css, js/jquery-3.7.0.js and js/jquery.easypiechart.js files-->
     <section id="knowledge">
         <div class="heading">
             <h2 class="title">CONOCIMIENTOS</h2>
@@ -107,6 +109,7 @@
     </section>
     <!--Knoledge end-->
     <!--contact start-->
+    <!--depends on css/bootstrap.min.css and https://kit.fontawesome.com/3c33f7adf4.js files-->
     <section id="contact">
         <div class="heading">
             <h2 class="title">CONTACTO</h2>
@@ -116,9 +119,14 @@
             <div class="contactDetails row">
                 <div class="contactInfo col-12 col-md-4">
                     <h3>INFORMACIÓN DE CONTACTO</h3>                   
-                    <p> <i class="fa fa-mobile fa-lg"></i> +57 311 826 8985</p>
-                    <p> <i class="fa fa-envelope-o "></i> <a href="mailto:ing.rama88@gmail.com?Subject=Contact from pag. web"><span class="e-mail" data-user="88amar.gni" data-website="moc.liamg"></span></a></p>
-                    <p> <i class="fa fa-link "></i> <a href="https://www.ingrama.co/#contact" target="_blank">www.ingrama.co</a></p>
+                    <p><i class="fa fa-mobile fa-lg"></i> +57 311 826 8985</p>
+                    <p><i class="fa fa-envelope-o "></i> 
+                        <a href="mailto:ing.rama88@gmail.com?Subject=Contact from pag. web">
+                            <span class="e-mail" data-user="88amar.gni" data-website="moc.liamg">
+                    </span></a></p>
+                    <p><i class="fa fa-link"></i>
+                        <a href="https://www.ingrama.co/#contact" target="_blank">www.ingrama.co                            
+                    </a></p>
                 </div>
                 <div class="writeMe col-md-6 col lg-8">
                     <h3>ESCRÍBEME!</h3>
@@ -140,6 +148,7 @@
     </section>
     <!--contact end-->
     <!--footer start-->
+    <!--depends on https://kit.fontawesome.com/3c33f7adf4.js file-->
     <footer>
         <div class="container">            
             <a href="https://github.com/rama8810" target="_blank"><i class="fa fa-github fa-3x"></i></a>
@@ -149,13 +158,13 @@
     <!--footer end-->
     <!--jquery3.7.0 script-->
     <script src="js/jquery-3.7.0.js"></script>
-    <!--https://fontawesome.com script-->
+    <!--https://fontawesome.com script - for contact and footer icons-->
     <script src="https://kit.fontawesome.com/3c33f7adf4.js" crossorigin="anonymous"></script>
-    <!--bootstrap script-->
+    <!--bootstrap script - for menu nav-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--menu hover effect script-->
-    <script src="js/script.js"></script>
-    <!--easypiechart for section knowledge script-->
+    <script src="js/menuHover.js"></script>
+    <!--easypiechart script - for section knowledge-->
     <script src="js/jquery.easypiechart.js"></script>
     <script>
         $(function() {
