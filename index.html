@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8"><!--Compatible con español - ñ y tildes-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatible con IE old-->
@@ -19,9 +19,11 @@
         <!--banner start-->        
         <header>                                    
             <div class="heading">                
-                <h1>RODOLFO A. MELÉNDEZ A.</h1>
+                <h1 translate="no">RODOLFO A. MELÉNDEZ A.</h1>
                 <h2>Ingeniero de Sistemas - Desarrollador Web.</h2>
             </div>
+            <!--translate depends on https://translate.google.com/.../element.js and js/translate.js files-->            
+            <div id="google_translate_element" class="google"></div>            
         </header>
         <!--banner end-->        
     </section>
@@ -78,7 +80,7 @@
             <p>tecnolog&iacuteas principales</p>
         </div>
         <div class="container">
-            <div class="row">
+            <div translate="no" class="row">
                 <div class="skillArea col-md-4">
                     <div class="chart" data-percent="60">60%</div>
                     <h2>MYSQL</h2>                    
@@ -169,7 +171,10 @@
     <script src="js/menuHover.js"></script><!--menu hover effect mySript-->
     <!--easypiechart scripts - for the section knowledge-->
     <script src="js/jquery.easypiechart.js"></script>    
-    <script src="js/easyPieChartInit.js"></script><!--easypiechart myScript to initialize-->    
+    <script src="js/easyPieChartInit.js"></script><!--easypiechart myScript to initialize-->
+    <!--traslate google scripts-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="js/translate.js"></script>
 </body>
 </html>
 
