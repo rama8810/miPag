@@ -17,6 +17,7 @@ section#begin {
     z-index: 2000;
     top: 68px;
     right: 28px;
+    display: block;
 }
 
 .btn-translate:before {
