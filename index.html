@@ -173,10 +173,9 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/easyPieChartInit.js"></script><!--easypiechart myScript to initialize-->
     <script>
-    function init(){
-        var x = document.getElementsById("gt-nvframe");
+    function init(){        
         var y = document.getElementsByClassName("btn-translate");
-        if (x.style.position === "fixed"){
+        if ($("#gt-nvframe").length > 0){
             y.style.display = "none";
         }
         init();
