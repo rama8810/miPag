@@ -11,13 +11,12 @@ body {
 section#begin {
     width: 100%;
 }
-/*
+
 .btn-translate {
     position: fixed;
     z-index: 2000;
     top: 68px;
     right: 28px;
-    display: block;
 }
 
 .btn-translate:before {
@@ -36,7 +35,6 @@ section#begin {
     position: relative;
     z-index: 2;
 }
-*/
 
 header {
     display: grid;
