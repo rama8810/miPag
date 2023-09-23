@@ -11,7 +11,7 @@ body {
 section#begin {
     width: 100%;
 }
-
+/*
 .btn-translate {
     position: fixed;
     z-index: 2000;
@@ -36,6 +36,7 @@ section#begin {
     position: relative;
     z-index: 2;
 }
+*/
 
 header {
     display: grid;
