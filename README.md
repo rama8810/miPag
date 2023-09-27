@@ -1,8 +1,5 @@
-# miPag
+# Rodolfo Andrés Meléndez Ardila
 Pagina Web personal
-
-TITLE: 
-Rodolfo Andrés Meléndez Ardila
 
 AUTHOR:
 Rodolfo Andrés Meléndez Ardila
