@@ -1,3 +1,4 @@
+/*Menu myScript Hover Effect*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('nav a');
 
@@ -16,3 +17,23 @@ window.onscroll = () => {
         };
     })
 }
+
+/*easypiechart myScript to initialize*/
+$(function() {
+    $('.chart').easyPieChart({
+        size:125,
+        barColor: '#2d6d92',
+        scaleColor: false,
+        lineWidth: 15,
+        trackColor: 'Silver'
+    });
+});
+
+/*GoogleTranslate myScript Button*/
+let x = document.getElementById("gt-nvframe");  
+let y = document.getElementsByClassName("btn-translate");        
+function init(){                        
+    if (x !== null) {                     
+        y[0].style.display = "none";                
+    }   
+} init(); 
