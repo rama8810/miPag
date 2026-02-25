@@ -28,12 +28,3 @@ $(function() {
         trackColor: 'Silver'
     });
 });
-
-/*GoogleTranslate myScript Button*/
-let x = document.getElementById("gt-nvframe");  
-let y = document.getElementsByClassName("btn-translate");        
-function init(){                        
-    if (x !== null) {                     
-        y[0].style.display = "none";                
-    }   
-} init(); 
